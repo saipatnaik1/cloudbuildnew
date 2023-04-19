@@ -18,7 +18,7 @@ steps:
   - --filename=./myapp/
   - --image=gcr.io/$PROJECT_ID/test-app:latest
   - --location=us-central1-c
-  - --cluster=my-first-cluster-1
+  - --cluster=my-first-cluster
   
 images:
  - 'gcr.io/$PROJECT_ID/test-app:latest'
