@@ -1,0 +1,8 @@
+apiVersion: skaffold/v4beta4
+kind: config
+metadata: 
+  name: root
+manidests:
+  rawYaml:
+    - myapp/deploy.yaml
+    - myapp/service.yaml
